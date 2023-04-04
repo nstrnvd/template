@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "shabnam-bold";
+    src: url("fonts/Shabnam-Bold.woff2");
+ }
+@font-face {
+    font-family: "shabnam";
+    src: url("fonts/Shabnam.woff2");
+ }
+body {
+    background-color: #f1f1f1;
+    margin: 0px;
+}
+/*--------HEADER-------------*/
+.header-wrapper {
+    font-family: "shabnam";
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.heading {
+    background-color: #000000;
+    color: #ffffff;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.heading-first {
+    margin: 8px 0;
+}
+/*------MAIN-------------*/
+.main-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/*------------DESKTOP----------------------*/
+@media only screen and (min-width:768px) {
+    .parent-grid {
+        display: grid;
+        grid-template-columns: 2.5fr 1fr;
+        grid-template-areas: 'left right';
+        gap: 16px;
+    }
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+.left {
+    grid-area: left;
+}
+.top-left {
+    margin-bottom: 16px;
+}
+.gallery1 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px 0 #00000033,0 4px 20px 0 #00000030;
+}
+.inside-link {
+    display: block;
+}
+.img-box1 {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.first-box {
+    padding: 0 16px;
+}
+.link-left {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.title1 {
+    font-family: "shabnam-bold";
+    margin: 8px 0;
+}
+.titledescription {
+    font-family: "shabnam";
+    margin: 8px 0;
+    padding: 10px 0 18px 0;
+}
+.p1 {
+    font-family: "shabnam";
+    padding: 0px 16px 15px 0px;
+}
+.parentt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bottom-left {
+    margin-bottom: 16px;
+}
+.div-button {
+    padding: 0 16px;
+}
+.button3 {
+    background-color: #ffffff;
+    padding: 12px 24px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    font-family: "shabnam";
+    transition: 1s;
+
+}
+.headingg {
+    background-color: #000;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.button3:hover {
+    color: #000;
+    background-color: #ccc;
+
+}
+.span1 {
+    padding: 12px 24px;
+    font-family: "shabnam";
+    margin: 15px;
+}
+.heading1 {
+    background-color: #000;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 70px;
+}
+.right1 {
+    margin-bottom: 16px;
+}
+.gallery2 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px 0 #00000033,0 4px 20px 0 #00000030;
+}
+.heading2 {
+    font-family: "shabnam-bold";
+    margin: 8px 0;
+    padding: 0 16px;
+}
+.p2 {
+    font-family: "shabnam";
+    margin-top: 0px;
+    padding: 5px 16px 15px 16px;
+}
+.img-boxright {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.img-box2{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.title2 {
+    font-family: "shabnam-bold";
+    margin: 8px 0;
+    padding: 0px 16px 0px 0;
+}
+.titledescription2 {
+    font-family: "shabnam";
+    margin: 8px 0;
+    padding: 0 16px;
+    padding: 10px 16px 12px 0;
+}
+.first-span {
+    color: #737373;
+}
+.right {
+    grid-area: right;
+}
+.right2 {
+    box-shadow: 0 4px 10px 0 #00000033,0 4px 20px 0 #00000030;
+    margin-bottom: 16px;
+    font-family: "shabnam";
+} 
+.item-flex {
+    padding: 8px 16px;
+}
+.list1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+.inside-li {
+    display: flex;
+    padding: 12px 16px 12px;
+    border-bottom: 1px solid #ddd;
+    transition: 1s;
+}
+.inside-li:hover {
+    background-color: #ccc;
+}
+.img-flex {
+    display: block;
+    height: auto;
+}
+.link-right {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    font-size: 19px;
+    padding-right: 16px;
+}
+.link-right2 {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    font-family: "shabnam";
+    padding-right: 16px;
+}
+.right3 {
+    box-shadow: 0 4px 10px 0 #00000033,0 4px 20px 0 #00000030;
+    font-family: "shabnam";
+
+}
+.heading4 {
+    padding: 14px 16px;
+    background-color: #f1f1f1;
+}
+.inside-heading {
+    margin: 6px 0;
+    font-size: 17px;
+}
+.last-box {
+    background-color: #ffffff;
+    padding: 0px 16px 8px 16px;
+    font-size: 13px;
+}
+.city {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0px 8px 0px 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-size: 15px;
+    display: inline-block;
+}
+.city2 {
+    background-color: #f1f1f1;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+/*-----------FOOTER-------*/
+.footer-wrapper {
+    background-color: #616161;
+    padding: 32px 17px;
+    margin-top: 16px;
+    font-family: "shabnam";
+}
+.button1 {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 12px 25px;
+    margin-bottom: 16px;
+    font-family: "shabnam";
+    transition: 1s;
+
+}
+.button1:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.button2 {
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+    padding: 12px 25px;
+    margin-bottom: 16px;
+    font-family: "shabnam";
+
+}
+.p-footer {
+    color: #fff;
+    margin-top: 16px;
+}
+.link-footer {
+    color: #fff;
+}
